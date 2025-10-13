@@ -13,10 +13,12 @@ The Spreadsheet files I used for data cleaning are in the repository or can be f
 The report slides for presentation can be found here.
 
 # Executive Summary
-**TOKI Retreat Van Long recorded a steady 6.2% year-over-year growth in the first nine months, with an occupancy rate of 68.3% and a cancellation rate of 29.9%**. Revenue and occupancy reached their lowest levels in January and peaked during the summer months, likely driven by vacation demand. The An and Mi room types were the primary revenue contributors, together accounting for over 80% of total room revenue.
+**TOKI Retreat Van Long achieved a moderate 6.2% year-over-year growth in the first nine months, with an occupancy rate of 68.3% and a cancellation rate of 29.9%**. Revenue and occupancy reached their lowest levels in January and peaked during the summer months, likely driven by vacation demand. The An and Mi room types were the primary revenue contributors, together accounting for over 80% of total room revenue.
 
 By sales channel, **Direct and Booking.com remained the two key revenue sources**, generating more than 90% of total sales. Unlike the Direct channel, **Booking.com performed strongest during the low season** (November–December and February–March), increasing sales by roughly 50% while attracting more long-stay guests.
 
 **Long-stay bookings made up only 13% of total reservations**, with most occurring on weekdays (Monday–Wednesday).
 
-In terms of booking performance, **OTA channels—particularly Booking.com—showed significantly higher cancellation rates** (over 50%) compared with Direct bookings (around 20%), raising the overall business cancellation rate to 29.9%. Customers who booked further in advance were also more likely to cancel.
+In terms of booking performance, **OTA channels—particularly Booking.com—showed significantly higher cancellation rates** (over 50%) compared with Direct bookings (around 20%), raising the overall business cancellation rate to 29.9%. Cancellations were most common among guests who booked well in advance.
+
+# 
