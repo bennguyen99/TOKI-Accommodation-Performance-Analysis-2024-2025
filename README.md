@@ -107,4 +107,4 @@ This section includes all the clarification questions discussed with TOKI’s re
     * _**A:**_ Discard all information related to "Tax", "Payment Status", and "OTA Commission". Extract the "Remittance Amount" values, as these are the net revenue from Expedia and Airbnb, as well as the "Additional Charge". Booking.com is the only OTA that has commission excluded in the `Giá phòng` (Price) column. Booking.com retains 15% value of each booking.
 ## Caveats
   * The `Ngày sinh` (Date of Birth), "Địa chỉ" (Address) and "Hộ chiếu" (Passport) columns have over 80% null values, limiting the customer analysis process
-  * The "Giới tính" (Gender) column was left out of the analysis due to questionable reliability. Lots of customers with girly names are dubbed "Male"
+  * The `Giới tính` (Gender) column was left out of the analysis due to questionable reliability. Lots of customers with girly names are dubbed "Male"
