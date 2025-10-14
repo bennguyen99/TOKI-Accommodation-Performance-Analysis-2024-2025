@@ -15,11 +15,13 @@ The report slides for presentation can be found here.
 # Data Structure & Initial Checks
 The company's main database structure, as seen below, consists of 2 tables, with a total row count of 6,186 records. 
 
-Key columns include ID, Room type, Company, Net Revenue, Arrival Date, Booking Date, Cancellation Status, and Night Spent.
+**Key metrics** in the hospitality industry usually encompass **Occupancy Rate, Cancellation Rate, Revenue per Available Room**, and **Stay Duration**.  
+
+According to the identified metrics, **Key columns** will include **ID, Room type, Company, Net Revenue, Arrival Date, Booking Date, Cancellation Status**, and **Night Spent**.
 
 Data was cleaned and aggregated for analysis, excluding the “Ta” room type and test records created by the in-house team for demonstration purposes.
 
-The final table - TOKI_Merged contains 5,193 records.
+The final table - TOKI_Merged contains **5,193 records**.
 
 TOKI Retreat Van Long Dataset Description:
 <p align="center">
@@ -35,9 +37,52 @@ By sales channel, **Direct and Booking.com remained the two key revenue sources*
 
 In terms of booking performance, **OTA channels—particularly Booking.com—showed significantly higher cancellation rates** (over 50%) compared with Direct bookings (around 20%), raising the overall business cancellation rate to 29.9%. Cancellations were most common among guests who booked well in advance.
 
-# Dashboard Overview/ Report Structure
+# Report Structure
 
-The Power BI report is organized into the following pages:
+The Power BI report is structured to guide decision-making from the C-suite to team leaders — moving from high-level business overviews to operational insights. This design enables the TOKI team to quickly understand overall performance and pinpoint key areas for improvement and future growth.
 
-  * Say something
-  * Say anything
+  * **Executive Summary:**  Presents key business KPIs and overall performance trends.
+  * **Sales Performance:** Analyzes revenue growth and seasonality overall and across major booking channels.
+  * **Customer Profile:** Examines customer segments and booking behaviors for promotion optimization.
+  * **Stay Duration Deep-dive:** Evaluates long-stay booking patterns and their contribution to total revenue.
+  * **Booking Performance:** Reviews 9M YoY trends in cancellations and booking efficiency across multiple dimensions.
+
+<p align="center">
+  <img src="Visualizations/Executive Summary.png" alt="Executive Summary"/>
+</p>
+
+<p align="center"> 
+  <i> <b> Page 1 </b>: Executive Summary </i> 
+</p>
+
+<p align="center">
+  <img src="https://github.com/bennguyen99/TOKI-Accommodation-Performance-Analysis-2024-2025/blob/main/Visualizations/Sales%20Time-series.png" alt="Sales Performance"/>
+</p>
+
+<p align="center"> 
+  <i> <b> Page 2 </b>: Sales Performance </i> 
+</p>
+
+<p align="center">
+  <img src="https://github.com/bennguyen99/TOKI-Accommodation-Performance-Analysis-2024-2025/blob/main/Visualizations/Customer%20Info.png" alt="Customer Profile"/>
+</p>
+
+<p align="center"> 
+  <i> <b> Page 3 </b>: Customer Profile </i> 
+</p>
+
+<p align="center">
+  <img src="https://github.com/bennguyen99/TOKI-Accommodation-Performance-Analysis-2024-2025/blob/main/Visualizations/Average%20Stay%20Duration.png" alt="Stay Duration deep-dive"/>
+</p>
+
+<p align="center"> 
+  <i> <b> Page 4 </b>: Stay Duration deep-dive </i> 
+</p>
+
+<p align="center">
+  <img src="https://github.com/bennguyen99/TOKI-Accommodation-Performance-Analysis-2024-2025/blob/main/Visualizations/Booking%20Performance.png" alt="Booking Performance"/>
+</p>
+
+<p align="center"> 
+  <i> <b> Page 5 </b>: Booking Performance </i> 
+</p>
