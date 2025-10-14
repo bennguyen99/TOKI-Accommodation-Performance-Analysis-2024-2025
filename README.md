@@ -22,7 +22,9 @@ Data was cleaned and aggregated for analysis, excluding the “Ta” room type a
 The final table - TOKI_Merged contains 5,193 records.
 
 TOKI Retreat Van Long Dataset Description:
-![1](https://github.com/bennguyen99/TOKI-Accommodation-Performance-Analysis-2024-2025/blob/main/Visualizations/Dataset%20Description.jpg)
+<p align="center">
+  <img src="https://raw.githubusercontent.com/bennguyen99/TOKI-Accommodation-Performance-Analysis-2024-2025/refs/heads/main/Visualizations/Dataset%20Description.jpg" alt="Dataset Description"/>
+</p>
 
 # Executive Summary
 **TOKI Retreat Van Long achieved a moderate 6.2% year-over-year growth in the first nine months, with an occupancy rate of 68.3% and a cancellation rate of 29.9%**. Revenue and occupancy reached their lowest levels in January and peaked during the summer months, likely driven by vacation demand. The An and Mi room types were the primary revenue contributors, together accounting for over 80% of total room revenue.
@@ -33,4 +35,9 @@ By sales channel, **Direct and Booking.com remained the two key revenue sources*
 
 In terms of booking performance, **OTA channels—particularly Booking.com—showed significantly higher cancellation rates** (over 50%) compared with Direct bookings (around 20%), raising the overall business cancellation rate to 29.9%. Cancellations were most common among guests who booked well in advance.
 
-# Deep-dive 
+# Dashboard Overview/ Report Structure
+
+The Power BI report is organized into the following pages:
+
+  * Say something
+  * Say anything
