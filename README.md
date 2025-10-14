@@ -8,9 +8,9 @@ This project focuses on data from **TOKI Retreat Van Long** in Ninh Binh, extrac
 
 As the **Data Analyst** on this project, I was responsible for compiling a business report on **sales performance, customer profiles, booking behavior**, and **stay duration** patterns to uncover actionable business insights. The project was **conducted in Vietnamese**, and the **"Ta" room type — a single-bed category — was excluded** from the analysis at the request of the data provider. An English version will be released soon.
 
-The Spreadsheet files I used for data cleaning are in the repository or can be found here.
+The Spreadsheet files used for data cleaning are available upon request to maintain data confidentiality.
 
-The report slides for presentation can be found here.
+The report slides for presentation can be found [here](https://www.canva.com/design/DAG1pOc6Eq0/hi6vnsaMSl9paGdXbGFDuA/edit).
 
 # Data Structure & Initial Checks
 The company's main database structure, as seen below, consists of 2 tables, with a total row count of 6,186 records. 
