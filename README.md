@@ -86,3 +86,9 @@ The Power BI report is structured to guide decision-making from the C-suite to t
 <p align="center"> 
   <i> <b> Page 5 </b>: Booking Performance </i> 
 </p>
+
+# Recommendations
+  * 
+
+# Assumptions & Caveats
+  * 
