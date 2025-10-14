@@ -88,7 +88,23 @@ The Power BI report is structured to guide decision-making from the C-suite to t
 </p>
 
 # Recommendations
-  * 
-
-# Assumptions & Caveats
-  * 
+  * **Leverage Booking.com during low seasons** (Nov–Dec & Feb–Mar) to sustain revenue flow and attract long-stay guests, as this channel consistently drives higher off-season sales and longer average stays compared to Direct bookings.
+  * **Launch OTA promotions** and **limited-time offers during peak booking hours** (10 AM–12 PM and 9 PM) to maximize conversion opportunities.
+  * **Promote long-stay experiences** by highlighting weekday travel guides, must-try local activities, and on-site workshops to encourage guests to extend their stays.
+  * **Implement a more flexible cancellation policy**, especially for early bookings on OTA channels, to stabilize revenue and reduce overall cancellation rates.
+  * **Build a CRM system and loyalty program** to track customer lifecycle, distinguish between new, returning, and churned customers, and gain deeper behavioral insights.
+  * **Enhance customer data collection processes** to ensure accuracy and completeness, enabling more reliable and insightful customer analysis.
+# Clarified Questions & Caveats
+## Clarified Questions
+This section includes all the clarification questions discussed with TOKI’s representative to ensure a clear understanding of the dataset and its context.
+  * Q: The `ID` column has a lot of records where the same ID has mismatched guest names. Do duplicated ID records belong to the same guest group or not? If the duplicated IDs belong to one guest group, can we conclude that these customers are "Gia đình/Nhóm bạn" (Friend Groups/Family) segment?
+--> A: Yes. Each ID represents a booking/reservation, and IDs with duplicated values belong to a group of friends or a family.
+  * Q: What do the blank values in the `Công ty` (Company) column mean?
+--> A: Blank values and EZCloud values indicate bookings made through the Direct Channel
+  * Q: What does the `NL/TE` column mean?
+--> It stands for "Người lớn/Trẻ em" (Adults/Children)
+  * Q: The "Ghi chú" column contains chunks of text, with various info such as "Tax", "OTA Commission", "Remittance Amount", "Additional Charge", and "Payment Status", which of these should be kept?
+--> A: Discard all information related to "Tax", "Payment Status", and "OTA Commission". Extract the "Remittance Amount" values, as these are the net revenue from Expedia and Airbnb, as well as the "Additional Charge". Booking.com is the only OTA that has commission excluded in the `Giá phòng` (Price) column. Booking.com retains 15% value of each booking.
+## Caveats
+  * The `Ngày sinh` (Date of Birth), "Địa chỉ" (Address) and "Hộ chiếu" (Passport) columns have over 80% null values, limiting the customer analysis process
+  * The "Giới tính" (Gender) column was left out of the analysis due to questionable reliability. Lots of customers with girly names are dubbed "Male"
