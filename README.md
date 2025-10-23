@@ -8,7 +8,7 @@ This project focuses on data from **TOKI Retreat Van Long** in Ninh Binh, extrac
 
 As the **Data Analyst** on this project, I was responsible for compiling a business report on **sales performance, customer profiles, booking behavior**, and **stay duration** patterns to uncover actionable business insights. The project was **conducted in Vietnamese**, and the **"Ta" room type — a single-bed category — was excluded** from the analysis at the request of the data provider. An English version will be released soon.
 
-The Spreadsheet files used for data cleaning are available upon request to maintain data confidentiality.
+A Spreadsheet file used for data cleaning can be found [here](https://docs.google.com/spreadsheets/d/1C0wLm43VQwXjQHFUSPC9uowUlYA-HmbUFk8GiqFk7Mw/edit?gid=928791665#gid=928791665). The 2024 version and the full version are available upon request to maintain data confidentiality. If you're a recruiter, please get in touch with me for more information.
 
 The report slides for presentation can be found [here](https://www.canva.com/design/DAG1pOc6Eq0/hi6vnsaMSl9paGdXbGFDuA/edit).
 
